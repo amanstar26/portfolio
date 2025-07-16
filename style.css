@@ -545,10 +545,11 @@ dotlottie-wc{
         display: none;
     }
     .contact{
-        padding:10px;
+        padding:0;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 10px;
     }
     .form form .input-box .input-field{
         width: 100%;
@@ -592,12 +593,24 @@ dotlottie-wc{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 10px;
     }
     section .home-content .social-icons{
         position: absolute;
         margin-left: 34%;
         bottom: 0rem;
+    }
+    .contact{
+        padding:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    section .home-content .btn-box .btn{
+        width: 12rem;
+        height: 4rem;
+        font-size: 14px;
+        font-weight: 500;
     }
 }
 @media (max-width: 450px){
@@ -644,5 +657,8 @@ dotlottie-wc{
         position: absolute;
         margin-left: 27%;
         bottom: 0rem;
+    }
+    .home-content{
+        font-size: 12px;
     }
 }
