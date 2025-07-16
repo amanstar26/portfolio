@@ -619,9 +619,9 @@ dotlottie-wc{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        position: fixed;
+        position: absolute;
         margin-left: 0;
-        right: -4.5rem;
+        left: -15.5rem;
         padding: 0;
         top: 0;
         z-index: 1;
