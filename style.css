@@ -644,6 +644,11 @@ dotlottie-wc{
     }
 }
 @media (max-width: 350px){
+    .home{
+        min-height:auto;}
+    .about{
+        min-height:auto;
+    }
     .about .about-content .heading{
         top: -220px;
     }
