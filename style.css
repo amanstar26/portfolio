@@ -545,11 +545,10 @@ dotlottie-wc{
         display: none;
     }
     .contact{
-        padding:0;
+        padding:10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 10px;
     }
     .form form .input-box .input-field{
         width: 100%;
