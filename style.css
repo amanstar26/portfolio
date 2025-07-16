@@ -441,6 +441,9 @@ dotlottie-wc{
         display: block;
         color: #4e83ee;
     }
+    .home .home-content .text-animate p{
+        font-size: 12px;
+    }
     .navigation{
         position: absolute;
         top: 100%;
@@ -467,7 +470,6 @@ dotlottie-wc{
     }
     .education-content .content h3{
         font-size: 15px;
-    
     }
     section .home-content .social-icons{
         width: 140px;
@@ -644,11 +646,6 @@ dotlottie-wc{
     }
 }
 @media (max-width: 350px){
-    .home{
-        min-height:auto;}
-    .about{
-        min-height:auto;
-    }
     .about .about-content .heading{
         top: -220px;
     }
