@@ -656,9 +656,19 @@ dotlottie-wc{
         width: 90%;
     }
     section .home-content .social-icons{
-        position: absolute;
-        margin-left: 27%;
-        bottom: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        margin-left: 0;
+        right: -4.5rem;
+        padding: 0;
+        top: 0;
+        z-index: 1;
+    }
+    section .home-content .social-icons a{
+        border-radius: 0;
     }
     .home-content{
         font-size: 12px;
